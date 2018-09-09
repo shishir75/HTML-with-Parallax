@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+.hero{
+	background-image: url("../img/3.jpg");
+	height: 100vh;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	opacity: 0.8;
+	background-attachment: fixed;
+}
+
+.navbar-custom{
+	background: transparent;
+}
+
+
+.navbar-custom li a{
+	color: #fff;
+}
+
+.navbar-custom li a:hover{
+	color: #3D3D3D;
+	background: #F2D0A4;
+	padding: 10px;
+	border-radius: 10px;
+	transition: .6s;
+}
+
+.heading{
+	position: relative;
+	top: 40%;
+}
+
+.heading h4{
+	color: #fff;
+}
+
+.pro-heading{
+	padding-left: 0px;
+	padding-right: 0;
+	margin-top: 25px;
+}
+
+.profile{
+	/*background-image: url(../img/mee.jpg);*/
+	background-repeat: no-repeat;
+	/*background-position: center;*/
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 505px;
+	width: 100%;
+	border-radius: 0 5px 5px 0;
+}
+
+
+.card-hight{
+	height: 225px;
+	border: 2px solid #235452;
+}
+
+/*.card-pos{
+	position: relative;
+	top: 50%;
+}*/
+
+.text-hoverlay{
+	background-color: black;
+	color: white;
+	opacity: .5;
+}
+
+.gallery{
+	background: #9DF2A8;
+	color: #000;
+	padding: 20px;
+	margin-top: 50px;
+}
+
+.card:hover{
+	box-shadow: 7px 9px 9px -3px;
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-ms-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+}
+
+
+.contact{
+	background-image: url("../img/Contact me Pic/contact.jpg");
+	height: 600px;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	opacity: 0.8;
+	background-attachment: fixed;
+}
+
+.contact label{
+	color: black;
+	font-size: 18px;
+}
+
+.footer{
+	background-color: #3D3D3D;
+	color: #fff;
+	padding: 20px;
+}
+
+.card-img-top{
+	height: 250px;
+}
